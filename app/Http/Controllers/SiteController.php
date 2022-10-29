@@ -7,7 +7,8 @@ use App\Models\AboutUs;
 use App\Models\Contact;
 use App\Models\introduction;
 use App\Models\Feature;
-
+use App\Models\subscribe;
+use Illuminate\Support\Facades\Redirect;
 
 class SiteController extends Controller
 {
@@ -103,6 +104,27 @@ class SiteController extends Controller
     function contact()
     {   
         return view('admin.aboutus');
+    }
+
+    function subscribe(Request $request)
+    {
+        $status = '';
+
+        try{
+           ( subscribe::create($request->all()) ) ? $status = 'success' : $status = 'failure' ;  
+
+           if($status=="success") { return Redirect::back()->with('error', 'Umefanikiwa Kujiandikisha'); }
+           if($status=="failure") { return Redirect::back()->with('error', 'Jaribu Tena'); }
+        }
+        catch(\Exception $e) {
+             return Redirect::back()->with('error', 'Password mismatch');
+        }
+
+        
+
+       
+       
+
     }
 
     

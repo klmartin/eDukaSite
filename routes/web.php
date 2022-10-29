@@ -58,4 +58,6 @@ Route::get('/packages',[SiteController::class, 'packages'])->name('packages');
 
 Route::get('/contact',[SiteController::class, 'contact'])->name('contact');
 
+Route::get('/subscribe',[SiteController::class, 'subscribe'])->name('subscribe');
+
  

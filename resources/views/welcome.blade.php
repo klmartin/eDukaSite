@@ -7,7 +7,7 @@
 
         <title> Eduka Taarifa za Duka Lako Mikononi Mwako </title>
         <!-- FAVICON -->
-        <link rel="apple-touch-icon" href="{{asset('assets/img/favicon/apple-touch-icon.png')}}">
+        <link rel="apple-touch-icon" href="{{asset('assets/img/favicon/apple--icon.png')}}">
         <link rel="icon" href="{{asset('assets/img/favicon/favicon.ico')}}">
         <link href=https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -15,6 +15,8 @@
         <link href="{{asset('assets/css/elements.css')}}" rel="stylesheet">
         <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
         <link href="{{asset('assets/css/responsive.css')}}" rel="stylesheet">
+         <!-- Toastr -->
+        <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.min.css')}}">
         <link rel="stylesheet" type="text/css" href=" {{asset('themify-icons-font/themify-icons/themify-icons.css')}} ">
 
     </head>
@@ -28,7 +30,7 @@
             <div class="container">
               <div class="navbar-header">
                 <a href="#"  class="navbar-brand">
-                <img src="{{asset('assets/img/logo/Capture.JPG')}}" alt="Bufet"> </a>
+                <img src="{{asset('assets/img/logo/WhatsApp Image 2022-10-29 at 10.44.28.jpeg')}}" alt="Bufet"> </a>
 
                 </div>
               <div  id="navigation">
@@ -132,14 +134,14 @@
                                 <div class="row ml-20">
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-cup"></span>
+                                            <span class="ti-star"></span>
                                             <h2>RIPOTI MBALINBALI</h2>
                                             <p>Ukiwa na eDuka unaweza kutengeneza na kuangalia ripoti za aina mbalimbali zinazoweza kukusaidia kuona maendeleo ya biashara yako. Utaweza kutazama ripoti za mauzo, manunuzi, matumizi, na faida.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-vector"></span>
+                                            <span class="ti-star"></span>
                                             <h2>MADUKA YOTE PAMOJA</h2>
                                             <p>Kuwa na akaunti moja pekee kutakuwezesha kudhibiti maduka yako yote. Mfumo unakuwezesha kuweka duka zaidi ya moja na kudhibiti taarifa na wafanyakazi wakila duka kwa ufanisi wa hali ya juu.</p>
                                         </div>
@@ -148,14 +150,14 @@
                                 <div class="row ml-20">
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-eye"></span>
+                                            <span class="ti-star"></span>
                                             <h2>RAHISI KUTUMIA</h2>
                                             <p>Baada ya kujisajili mtu yeyote anaweza kutumia mfumo wa eDuka kirahisi bila maelekezo ya ziada au kwa kujiongoza kwa kupakua na kutumia muongozo uliopo katika tovuti yetu. Unaweza pia kuuliza kwakuwasiliana na wataalamu wetu wanaopatikana muda wote.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-magnet"></span>
+                                            <span class="ti-star"></span>
                                             <h2>NI SALAMA</h2>
                                             <p>Unapokuwa na eDuka ondoa shaka juu ya usalama wa taarifa zako. Ni mfumo salama unaohifadhi taarifa kiusalama na kwa usiri wa hali ya juu.</p>
                                         </div>
@@ -164,14 +166,14 @@
                                 <div class="row ml-20">
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-eye"></span>
+                                            <span class="ti-star"></span>
                                             <h2>UHAKIKA</h2>
                                             <p>Ni mfumo imara na wa uhakika unaoweza kuutumia bila shida yoyote wakati wowote na popote pale utakapokuwepo. Kwa simu janja au kompyuta utapata taarifa za kila siku za maduka yako. Wataalamu wetu wanapatikana muda wote na wanaweza kukusaidia haraka pale unapohitaji msaada.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-magnet"></span>
+                                            <span class="ti-star"></span>
                                             <h2>TUNAJALI USIRI</h2>
                                             <p>Mfumo umetengenezwa katika namna ya kuweka taarifa zote za duka lako siri na muuzaji ataona bidhaa na bai ya kuuzia tu. Taarifa zote zinabaki siri kwa mmiliki.</p>
                                         </div>
@@ -180,14 +182,14 @@
                                 <div class="row ml-20">
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-eye"></span>
+                                            <span class="ti-star"></span>
                                             <h2>WADAI NA WADAIWA</h2>
                                             <p>Mfumo unakuwezesha kuwarekodi watu wote wanaokudai kibiashara na wateja wako unawadai pamoja na wadau wako mnaouziana kwa mkopo</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6">
                                         <div class="single-advance">
-                                            <span class="ti-magnet"></span>
+                                            <span class="ti-star"></span>
                                             <h2>UHASIBU NA MAHESABU YA WAKALA</h2>
                                             <p>Mfumo umetengenezwa kueza kufanya mahesabu ya kiuhasibu kwa kuandaa taarifa fupi za mwenendo wa biashara (Assets & Liabilities). Pia mfumo unakuwezesha kufanya mahesabu ya biashara yako ya wakala kwa kuhakiki float na pesa taslimu kila siku kabla ya kufunga siku.</p>
                                         </div>
@@ -195,9 +197,7 @@
                                 </div>
 
                             </div>
-                           <!--  <div class="col-md-6 col-sm-6">
-                               
-                            </div> -->
+                          
                         </div>
                     </div>
                 </section>
@@ -359,8 +359,8 @@
                         </div>
                         <div class="col-sm-8 col-xs-12">
                             <div class="subscribe-box">
-                                <form action="http://hackinout.us15.list-manage.com/subscribe/post-json?u=e44c1f194bec93e238615469e&amp;id=fa63cb4ac7&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
-                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Your Email Address" required>
+                                <form action=" {{route('subscribe')}} " method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                                    <input type="email" value="" name="email" class="email" id="mce-EMAIL" placeholder="Enter Your Email Address" required>
                                     <div aria-hidden="true">
                                         <input type="text" name="b_e44c1f194bec93e238615469e_f6f826e769" tabindex="-1" value="">
                                     </div>
@@ -438,7 +438,7 @@
                             <div class="col-md-4 col-sm-4 ">
                                 <div class="single-address">
                                     <div class="address-icon-bg">
-                                    <span class=" ti-email"></span>
+                                    <span class="ti-email"></span>
                                     </div>
                                     <p class="single-contact-info"><a href="mailto:info@eduka.co.tz">www.eduka.co.tz</a> </p>
                                 </div>
@@ -453,28 +453,28 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="social-links">
-                                <a href="#" target="_blank"><span class="ti-twitter-alt"></span></a>
-                                <a href="#" target="_blank"><span class="ti-pinterest"></span></a>
-                                <a href="#" target="_blank"><span class="ti-facebook"></span></a>
-                                <a href="#" target="_blank"><span class="ti-tumblr-alt"></span></a>
+                                <a href="https://mobile.twitter.com/eduka_tz" target="_blank"><span class="ti-twitter-alt"></span></a>
+                                <a href="https://www.facebook.com/people/EDUKA-Tanzania/100077209403803/" target="_blank"><span class="ti-facebook"></span></a>
+                                <a href="https://www.instagram.com/eduka_tz/" target="_blank"><span class="ti-instagram"></span></a>
+                                <a href="https://www.youtube.com/channel/UCcVJ3q-2zP3CfnlPKCNWP_A" target="_blank"><span class="ti-youtube"></span></a>
                             </div>
                         </div>
                         <div class="col-xs-12">
-                            <p class="copy-rights">Copyright @ 2022 <a href="#">e Duka </a>all right resurved.</p>
+                            <p class="copy-rights">Copyright @ 2022 <a href="#">eDuka </a>all right resurved.</p>
                         </div>
                     </div>
                 </div>
             </section>
         </section>
-
-
-
-
-
-
-
-
-
+        @if(session('error'))
+        <script>
+          Toast.fire({
+            icon: 'success',
+            title: "{{session('error')}}"
+          })  
+        </script>
+        
+        @endif
         <script src="{{asset('assets/js/jquery.min.js')}}"></script>
         <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6iKLVzr34W23jAZDT3HlrElOHfK6IH_w"></script>
@@ -483,6 +483,7 @@
         <script src="{{asset('assets/js/headroom.js')}}"></script>
         <script src="{{asset('assets/js/swiper.js')}}"></script>
         <script src="{{asset('assets/js/map.js')}}"></script>
+        <script src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
         <script src="{{asset('assets/js/main.js')}}"></script>
     </body>
 </html>
