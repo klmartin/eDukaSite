@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('image', 100);
             $table->text('description');
+            $table->string('_token',100);
             $table->timestamps();
         });
     }

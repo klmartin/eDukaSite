@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\AboutUs;
 use App\Models\Contact;
+use App\Models\introduction;
+use App\Models\Feature;
 
 
 class SiteController extends Controller
@@ -26,6 +28,25 @@ class SiteController extends Controller
         return view('admin.add_aboutus');
     }
 
+    function addIntroduction()
+    {
+        return view('admin.add_introduction');
+    }
+
+    function firstSection()
+    {
+        $introduction = introduction::all();
+        return view('admin.first_section',compact('introduction'));
+    }
+
+    function save_Introduction(Request $request)
+    {
+        $status = '';
+        ( introduction::create($request->all()) ) ? $status = 'success' : $status = 'failure' ;
+        return $status;
+
+    }
+
     function save_aboutus(Request $request)
     {
         if(AboutUs::create($request->all())){
@@ -34,8 +55,25 @@ class SiteController extends Controller
        
     }
 
-    function contactmail(Request $request){
+    function save_Feature(Request $request)
+    {
+        $status = '';
+        ( Feature::create($request->all()) ) ? $status = 'success' : $status = 'failure' ;
+        return $status;
+    }
 
+    function add_screenshots()
+    {
+        return view('admin.add_screenshots');
+    }
+
+    function add_features()
+    {
+        $features = Feature::all();
+        return view('admin.add_features',compact('features'));
+    }
+
+    function contactmail(Request $request){
         // dd($request->all());
         ( Contact::create($request->all()) ) ?    :  'fail' ;
 
@@ -43,12 +81,18 @@ class SiteController extends Controller
 
     function whyus()
     {
-        return view('admin.aboutus');
+        return view('admin.whyus');
+    }
+
+    function features()
+    {
+        $features = Feature::all();
+        return view('admin.features',compact('features'));
     }
 
     function screenshots()
     {
-        return view('admin.aboutus');
+        return view('admin.screenshots');
     }
     
     function packages()
@@ -60,4 +104,6 @@ class SiteController extends Controller
     {   
         return view('admin.aboutus');
     }
+
+    
 }

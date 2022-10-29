@@ -17,7 +17,14 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          
+           <li class="nav-item">
+            <a href="  {{route('firstSection')}} " class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                First Section
+              </p>
+            </a>
+          </li>
           <li class="nav-item">
             <a href="  {{route('aboutus')}} " class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -31,6 +38,15 @@
               <i class="nav-icon fas fa-copy"></i>
               <p>
                 Why US
+              </p>
+            </a>
+           
+          </li>
+           <li class="nav-item">
+            <a href="  {{route('features')}} " class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Features
               </p>
             </a>
            

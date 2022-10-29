@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,31 +14,48 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+use App\Models\introduction;
+use App\Models\Feature;
 Route::get('/', function () {
-    return view('welcome');
+    $introduction = introduction::all();
+    $features = Feature::all();
+    return view('welcome',compact('introduction'));
 });
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('/dashboard',[App\Http\Controllers\SiteController::class, 'dashboard'])->name('dashboard');
+Route::get('/dashboard',[SiteController::class, 'dashboard'])->name('dashboard');
 
-Route::get('/aboutus',[App\Http\Controllers\SiteController::class, 'aboutus'])->name('aboutus');
+route::get('/first/section', [SiteController::class,'firstSection'])->name('firstSection');
 
-Route::post('/contact/mail',[App\Http\Controllers\SiteController::class, 'contactmail'])->name('contact-mail');
+Route::get('/aboutus',[SiteController::class, 'aboutus'])->name('aboutus');
 
-Route::get('/addaboutus',[App\Http\Controllers\SiteController::class, 'add_aboutus'])->name('addaboutus');
+Route::post('/contact/mail',[SiteController::class, 'contactmail'])->name('contact-mail');
 
-Route::get('/saveaboutus',[App\Http\Controllers\SiteController::class, 'save_aboutus'])->name('saveaboutus');
+Route::get('/addaboutus',[SiteController::class, 'add_aboutus'])->name('addaboutus');
 
-Route::get('/whyus',[App\Http\Controllers\SiteController::class, 'whyus'])->name('whyus');
+Route::get('/add/features',[SiteController::class, 'add_features'])->name('add-features');
 
-Route::get('/screenshots',[App\Http\Controllers\SiteController::class, 'screenshots'])->name('screenshots');
+Route::get('/add/screenshots',[SiteController::class, 'add_screenshots'])->name('add-screenshots');
 
-Route::get('/packages',[App\Http\Controllers\SiteController::class, 'packages'])->name('packages');
+Route::get('/add/introduction',[SiteController::class, 'addIntroduction'])->name('add-introduction');
 
-Route::get('/contact',[App\Http\Controllers\SiteController::class, 'contact'])->name('contact');
+Route::get('/save/aboutus',[SiteController::class, 'save_aboutus'])->name('saveaboutus');
+
+Route::post('/save/features',[SiteController::class, 'save_Feature'])->name('save-features');
+
+Route::post('/save/introduction',[SiteController::class, 'save_Introduction'])->name('save-introduction');
+
+Route::get('/features',[SiteController::class, 'features'])->name('features');
+
+Route::get('/whyus',[SiteController::class, 'whyus'])->name('whyus');
+
+Route::get('/screenshots',[SiteController::class, 'screenshots'])->name('screenshots');
+
+Route::get('/packages',[SiteController::class, 'packages'])->name('packages');
+
+Route::get('/contact',[SiteController::class, 'contact'])->name('contact');
 
  

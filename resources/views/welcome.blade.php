@@ -79,33 +79,19 @@
         <section class="feature-area homepage-6">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4">
+                    @foreach($introduction as $intro)
+                        <div class="col-md-4 col-sm-4">
                         <div class="single-feature">
                             <div class="feature-img">
-                                <span class="ti-vector"></span>
+                                <span class=" {{$intro->icon}} "></span>
                             </div>
-                            <a href="#"><h2>MMILIKI WA DUKA</h2></a>
-                            <p>Mfumo wa eDuka unakuwezesha mmiliki wa duka kupata taarifa mbalimbali kuhusu mwenendo wa duka lako na kudhibiti shughuli za wafanyakazi pamoja na mauzo. Utaweza kuangalia ripoti kama za manunuzi, mauzo, na faida kwa kipindi utakachohitaji. Hii itakusaidia kujua hali ya ukuaji wa biashara na kukuwezesha kuiboresha na kuongeza uwekezaji. Yote yanawezekana kwa simu janja au kompyuta popote pale alipo. Utapokea ujumbe mfupi kwa njia ya email kukupa taarifa ya mauzo ya siku.</p>
+                            <a href=" {{$intro->link}} "><h2> {{$intro->heading}} </h2></a>
+                            <p>{{$intro->description}}</p>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="single-feature">
-                            <div class="feature-img">
-                                <span class="ti-panel"></span>
-                            </div>
-                            <a href="#"><h2>MUUZAJI DUKANI (NA MTANDAO)</h2></a>
-                            <p>Kwa mtandao au data muuzaji wa duka anaweza kufanya mauzo na kuhifadhi taarifa za mauzo matumizi, wadai pamoja na wadaiwa. Pia muuzaji anaweza kufanya mauzo ya bidhaa kwa njia ya Barcode Soma Zaidi</p>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="single-feature">
-                            <div class="feature-img">
-                                <span class="ti-desktop"></span>
-                            </div>
-                            <a href="#"><h2>MUUZAJI DUKANI (BILA MTANDAO)</h2></a>
-                            <p>Unaweza kufanya mauzo na kuhifadhi taarifa za mauzo, matumizi, wadai na wadaiwa bila kua na mtandao. Hii ni Habari njema kwa wale wasioweza kumudu kua na mtandao kwa muda wote. eDuka imetengenezwa kwa lengo la kurahisisha uhifadhi wa taarifa za biashara kwa mmiliki na muuzaji wa duka kidigitali ili kukuza biashara bila changamoto.Soma Zaidi</p>
-                        </div>
-                    </div>
+
+                    @endforeach
+                  =
                 </div>
             </div>
         </section>
@@ -229,9 +215,9 @@
                   <!-- Swiper -->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide" style="background-image:url(http://localhost/eDukaWebsite/public/assets/img/screen/softwear-111_8.png)"></div>
-                      <div class="swiper-slide" style="background-image:url(http://localhost/eDukaWebsite/public/assets/img/screen/Screenshot_2022-10-19_152215_872x622.png)"></div>
-                      <div class="swiper-slide" style="background-image:url(http://localhost/eDukaWebsite/public/assets/img/screen/Screenshot_2022-10-19_151947_872x622.png)"></div>
+                      <div class="swiper-slide" style="background-image:url(http://eduka.co.tz/testsite/public/assets/img/screen/softwear-111_8.png)"></div>
+                      <div class="swiper-slide" style="background-image:url(http://eduka.co.tz/testsite/public/assets/img/screen/Screenshot_2022-10-19_152215_872x622.png)"></div>
+                      <div class="swiper-slide" style="background-image:url(http://eduka.co.tz/testsite/public/assets/img/screen/Screenshot_2022-10-19_151947_872x622.png)"></div>
                     </div>
 
                     <!--  navigation buttons -->
@@ -242,74 +228,7 @@
                 </div>
               </div>
             </section>
-          <!--   <section class="promo-video-area homepage-6">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="video-demo-image">
-                                <div class="overlay-grad-one">
-                                    <img src="assets/img/bg/promo-video.jpg" alt="place your img" class="img-responsive center-block">
-                                </div>
-                                <div class="mfp-iframe video-play-icon">
-                                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="http://youtu.be/watch?v=5SVR7x1ENm4">
-                                        <span></span>
-                                    </a>
-                                    <p>watch video</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-       <!--FUN FACT AREA AREA-->
-
-<!--        <section class="fan-fact-area fan-fact-area-bg homepage-6">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-3 ">
-                    <div class="single-items">
-                        <h2><span class="counter">1350</span>+</h2>
-                        <div class="icon-bg">
-                            <span class="ti-mouse"></span>
-                        </div>
-                        <h4>App Download</h4>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 ">
-                    <div class="single-items">
-                        <h2><span class="counter">950</span>+</h2>
-                        <div class="icon-bg">
-                            <span class="ti-user"></span>
-                        </div>
-                        <h4>Happy Clients</h4>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 ">
-                    <div class="single-items">
-                        <h2><span class="counter">1080</span>+</h2>
-                        <div class="icon-bg">
-                            <span class="ti-star"></span>
-                        </div>
-                        <h4>Active Accounts</h4>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 ">
-                    <div class="single-items">
-                        <h2><span class="counter">1020</span>+</h2>
-                        <div class="icon-bg">
-                            <span class="ti-heart"></span>
-                        </div>
-                        <h4>Positive Rating</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-       </section> -->
-
-       <!--FUN FACT AREA AREA END-->
       
-
         <!--PRICING-TABLE-AREA-->
         <section id="Pricing" class="pricing-table-area homepage-6">
             <div class="container">
