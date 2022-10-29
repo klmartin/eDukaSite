@@ -404,7 +404,7 @@
                             </div>
                         <div class="col-sm-7">
                             <div class="google-map">
-                                <div id="map"></div>
+                                
                             </div>
                         </div>
                     </div>
