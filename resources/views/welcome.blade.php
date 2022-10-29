@@ -61,7 +61,7 @@
                                         <div class="slider-content">
                                             <h1 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".50s">Karibu <br> eDuka !</h1>
                                             <p class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">Taarifa za Duka Lako Mikononi Mwako </p>
-                                            <a class="download-btn all-btn wow fadeInUp" data-wow-duration="2s" data-wow-delay=".50s" href="#">Anza Kutumia Bure</a>
+                                            <a class="download-btn all-btn wow fadeInUp" data-wow-duration="2s" data-wow-delay=".50s" href="https://eduka.co.tz/auth/register">Anza Kutumia Bure</a>
                                         </div>
                                         <div class="video-area-bg wow fadeInUp" data-wow-duration="2s" data-wow-delay=".45s" >
                                             <a class="mfp-iframe video-play-btn venobox" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=feuiWI3Qqig">
@@ -364,7 +364,7 @@
                                     <div aria-hidden="true">
                                         <input type="text" name="b_e44c1f194bec93e238615469e_f6f826e769" tabindex="-1" value="">
                                     </div>
-                                    <input type="submit" value="GO" name="subscribe" id="mc-embedded-subscribe" class="mc-button">
+                                    <input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe" class="mc-button">
                                     <div id="subscribe-result">
                                     </div>
                                 </form>
