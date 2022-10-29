@@ -354,13 +354,13 @@
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div id="Contact" class="subscribe-text">
-                                <h2>Jiandikishe Sasa</h2>
+                                <h2>Kupokea Taarifa Zetu</h2>
                             </div>
                         </div>
                         <div class="col-sm-8 col-xs-12">
                             <div class="subscribe-box">
                                 <form action=" {{route('subscribe')}} " method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
-                                    <input type="email" value="" name="email" class="email" id="mce-EMAIL" placeholder="Enter Your Email Address" required>
+                                    <input type="email" value="" name="email" class="email" id="mce-EMAIL" placeholder="Weka Barua Pepe Yako" required>
                                     <div aria-hidden="true">
                                         <input type="text" name="b_e44c1f194bec93e238615469e_f6f826e769" tabindex="-1" value="">
                                     </div>
@@ -382,7 +382,7 @@
                     <div class="row">
                             <div class="col-sm-5">
                                 <div class="contact-form-area">
-                                    <h2 class="text-capitalize">Wasiliana Nasi</h2>
+                                    <h2 class="text-capitalize">Tuandikie</h2>
                                     <form id="digita-contact-form" action="{{ route('contact-mail')}} " method="POST">
                                         @csrf
                                         <div class="form-group">
