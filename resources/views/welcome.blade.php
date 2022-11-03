@@ -20,7 +20,7 @@
         <link rel="stylesheet" type="text/css" href=" {{asset('themify-icons-font/themify-icons/themify-icons.css')}} ">
 
     </head>
-        <a href="#slider-section" class="scrolltotop homepage-4"><span class="ti-angle-double-up"></span></a>
+    <a href="#slider-section" class="scrolltotop homepage-4"><span class="ti-angle-double-up"></span></a>
     <body class="homepage-8">
         
          </div> 
@@ -30,7 +30,7 @@
             <div class="container">
               <div class="navbar-header">
                 <a href="#"  class="navbar-brand">
-                <img src="{{asset('assets/img/logo/WhatsApp Image 2022-10-29 at 10.44.28.jpeg')}}" alt="Bufet"> </a>
+                <img src="{{asset('assets/img/logo/logoEduka.png')}}" alt="Bufet"> </a>
 
                 </div>
               <div  id="navigation">
@@ -234,114 +234,196 @@
             <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="section-heading text-center">
+                <div class="section-heading text-center" style="margin-bottom: 0;">
                     <h2>Gharama Za Kutumia</h2>
                     <img src="{{asset('assets/img/section/section-icon.png')}}" alt="place your img">
                     <!-- <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet, consectetur adipisicing incididunt.</p> -->
                 </div>
               </div>
             </div>
-       <div class="row">
-
-        <!-- Card #1, Starter -->
-            <div class="single-pricing-table col-lg-4 col-md-6 col-sm-10 pb-4 d-block m-auto">
-                <div class="pricing-item" style="box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.29);">
-                    <!-- Indicator of subscription type -->
-                    <div class="pt-4 pb-3" style="letter-spacing: 2px">
-                        <h5>KITONGA</h5>
+ 
+            <!--BLOCK ROW START-->
+            <div class="" id="generic_price_table">
+                <div class="container">
+                    <div class="row">
+                <div class="col-md-4">
+                
+                  <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+                        
+                        <!--HEAD PRICE DETAIL START-->
+                        <div class="generic_head_price clearfix">
+                        
+                            <!--HEAD CONTENT START-->
+                            <div class="generic_head_content clearfix">
+                            
+                              <!--HEAD START-->
+                                <div class="head_bg"></div>
+                                <div class="head">
+                                    <span>KITONGA</span>
+                                </div>
+                                <!--//HEAD END-->
+                                
+                            </div>
+                            <!--//HEAD CONTENT END-->
+                            
+                            <!--PRICE START-->
+                            <div class="generic_price_tag clearfix">  
+                                <span class="price">
+                                    <span class="sign">TSh</span>
+                                    <span class="currency">75,750</span>
+                                    <span class="cent">.00</span>
+                                    <span class="month">/YR</span>
+                                </span>
+                            </div>
+                            <!--//PRICE END-->
+                            
+                        </div>                            
+                        <!--//HEAD PRICE DETAIL END-->
+                        
+                        <!--FEATURE LIST START-->
+                        <div class="generic_feature_list">
+                          <ul>
+                              <li><span>Msaada</span> wa kiufundi wa haraka</li>
+                                <li><span>Tumia</span> mtandaoni bure</li>
+                                <li><span>Dhibiti</span> mauzo na wafanyakazi</li>
+                                <li><span>Uza</span> ukiwa mtandaoni</li>
+                                <br>
+                                <br>
+                                <br>
+                            </ul>
+                        </div>
+                        <!--//FEATURE LIST END-->
+                        
+                        <!--BUTTON START-->
+                        <div class="generic_price_btn clearfix">
+                          <a class="" href="">Sign up</a>
+                        </div>
+                        <!--//BUTTON END-->
+                        
                     </div>
-                    <!-- Price class -->
-                    <div class="pricing-price pb-1 text-primary color-primary-text ">
-                        <h4 style="font-weight: 1000; font-size: 3.5em;">
-                             0
-                        </h4>
+                    <!--//PRICE CONTENT END-->
+                        
+                </div>
+                
+                <div class="col-md-4">
+                
+                  <!--PRICE CONTENT START-->
+                    <div class="generic_content active clearfix">
+                        
+                        <!--HEAD PRICE DETAIL START-->
+                        <div class="generic_head_price clearfix">
+                        
+                            <!--HEAD CONTENT START-->
+                            <div class="generic_head_content clearfix">
+                            
+                              <!--HEAD START-->
+                                <div class="head_bg"></div>
+                                <div class="head">
+                                    <span>ZIGO</span>
+                                </div>
+                                <!--//HEAD END-->
+                                
+                            </div>
+                            <!--//HEAD CONTENT END-->
+                            
+                            <!--PRICE START-->
+                            <div class="generic_price_tag clearfix">  
+                                <span class="price">
+                                    <span class="sign">TSh</span>
+                                    <span class="currency">100,000</span>
+                                    <span class="cent">.00</span>
+                                    <span class="month">/YR</span>
+                                </span>
+                            </div>
+                            <!--//PRICE END-->
+                            
+                        </div>                            
+                        <!--//HEAD PRICE DETAIL END-->
+                        
+                        <!--FEATURE LIST START-->
+                        <div class="generic_feature_list">
+                          <ul>
+                              <li><span>Msaada</span> wakati wote 24/7</li>
+                                <li><span>Ongeza</span> maduka na wauzaji bila kikomo</li>
+                                <li><span>Angalia</span> na pakua ripoti</li>
+                                <li><span>Uza</span> Host Domain</li>
+                                <li><span>Uza na hifadhi</span> taarifa bila mtandao</li>
+                            </ul>
+                        </div>
+                        <!--//FEATURE LIST END-->
+                        
+                        <!--BUTTON START-->
+                        <div class="generic_price_btn clearfix">
+                          <a class="" href="">Sign up</a>
+                        </div>
+                        <!--//BUTTON END-->
+                        
                     </div>
-                    <!-- Perks of said subscription -->
-                    <div class="pricing-description">
-                        <ul class="list-unstyled mb-4">
-                            <li>Msaada Wa Kiufundi</li>
-                            <br>
-                            <li>Tumia Mtandaoni Bure</li>
-                            <br>
-                            <li>Uza Mtandaoni</li>
-                            <br>
-                            <li>Weka Bila Mtandao Kwa Gharama TZS 70,000/=</li>
-                            <br>
-                            <br>
-                            <br>
-                        </ul>
+                    <!--//PRICE CONTENT END-->
+                        
+                </div>
+                <div class="col-md-4">
+                
+                  <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+                        
+                        <!--HEAD PRICE DETAIL START-->
+                        <div class="generic_head_price clearfix">
+                        
+                            <!--HEAD CONTENT START-->
+                            <div class="generic_head_content clearfix">
+                            
+                              <!--HEAD START-->
+                                <div class="head_bg"></div>
+                                <div class="head">
+                                    <span>KUBWA LAO</span>
+                                </div>
+                                <!--//HEAD END-->
+                                
+                            </div>
+                            <!--//HEAD CONTENT END-->
+                            
+                            <!--PRICE START-->
+                            <div class="generic_price_tag clearfix">  
+                                <span class="price">
+                                    <span class="sign">TSh</span>
+                                    <span class="currency">485,000</span>
+                                    <span class="cent">.00</span>
+                                    <span class="month">/YR</span>
+                                </span>
+                            </div>
+                            <!--//PRICE END-->
+                            
+                        </div>                            
+                        <!--//HEAD PRICE DETAIL END-->
+                        
+                        <!--FEATURE LIST START-->
+                        <div class="generic_feature_list">
+                          <ul>
+                              <li><span>Tumia</span>bila mtandao</li>
+                                <li><span>Uza na hifadhi</span>taarifa bila mtandao</li>
+                                <li><span>Ongeza</span> maduka na wauzaji bila kikomo </li>
+                                <li><span>Taarifa</span> zinabaki kwenye Kompyuta Yako</li>
+                                <li><span>Lipia</span> mara moja</li>
+                            </ul>
+                        </div>
+                        <!--//FEATURE LIST END-->
+                        
+                        <!--BUTTON START-->
+                        <div class="generic_price_btn clearfix">
+                          <a class="" href="">Sign up</a>
+                        </div>
+                        <!--//BUTTON END-->
+                        
                     </div>
-                    <!-- Button -->
-                    <div class="pricing-button pb-4">
-                        <button type="button" class="btn btn-lg btn-primary w-75">Jiunge</button>
-                    </div>
+                    <!--//PRICE CONTENT END-->
+                        
+                </div>
+            </div>  
                 </div>
             </div>
-
-        <!-- Card #2, Intermediate -->
-            <div class="single-pricing-table col-lg-4 col-md-6 col-sm-10 pb-4 d-block m-auto">
-                <div class="pricing-item" style="box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.29);">
-                    <div class="pt-4 pb-3" style="letter-spacing: 2px">
-                        <h5>ZIGO</h5>
-                    </div>
-                    <div class="pricing-price pb-1 text-primary color-primary-text ">
-                        <h4 style="font-weight: 1000; font-size: 3.5em;">
-                             50,000
-                        </h4>
-                    </div>
-                    <div class="pricing-description">
-                        <ul class="list-unstyled mb-4">
-                            <li>Tumia Mtandaoni Kwa Mmiliki</li>
-                            <br>
-                            <li>Tumia Bila Mtandao Kwa Muuzaji</li>
-                            <br>
-                            <li>Angalia Na Pakua Ripoti Mtandaoni</li>
-                            <br>
-                            <li>Weka Maduka Na Wauzaji Bila Kikomo</li>
-                            <br>
-                            <li>Msaada Wakati Wote 24/7</li>
-                            <br>
-                            <li>Lipa TZS 60,000/= Kila Mwaka</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-button pb-4">
-                        <button type="button" class="btn btn-lg btn-primary w-75">Jiunge</button>
-                    </div>
-                </div>
-            </div>
-
-        <!-- Card #3, Professional -->
-            <div class="single-pricing-table col-lg-4 col-md-6 col-sm-10 pb-4 d-block m-auto">
-                <div class="pricing-item" style="box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.29);">
-                    <div class="pt-4 pb-3" style="letter-spacing: 2px">
-                        <h5>KUBWA LAO</h5>
-                    </div>
-                    <div class="pricing-price pb-1 text-primary color-primary-text ">
-                        <h4 style="font-weight: 1000; font-size: 3.5em;">
-                            450,000
-                        </h4>
-                    </div>
-                    <div class="pricing-description">
-                        <ul class="list-unstyled mb-4">
-                            <li>Tumia Bila Mtandao Kwa Mmiliki</li>
-                            <li>Tumia Bila Mtandao Kwa Muuzaji</li>
-                            <li> Angalia Na Pakua Ripoti Bila Mtandao</li>
-                            <li>Weka Maduka Na Wauzaji Bila Kikomo</li>
-                            <li>Msaada Wakati Wote 24/7</li>
-                            <li>Taarifa Zote Zinabaki Kwenye Kompyuta Yako</li>
-                            <li>Akiba Ya Taarifa Kwenye Mtandao</li>
-                            <li>Omba Huduma Mpya Kwa Jinsi Unavotaka</li>
-                            <li> Lipia Mara Moja</li>
-                            <br>
-                            <br>
-                        </ul>
-                    </div>
-                    <div class="pricing-button pb-4">
-                        <button type="button" class="btn btn-lg btn-primary w-75">Jiunge</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <!--//BLOCK ROW END-->
             </div>
         </section>
 
@@ -386,16 +468,16 @@
                                     <form id="digita-contact-form" action="{{ route('contact-mail')}} " method="POST">
                                         @csrf
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="Name" name="bizname" placeholder="Jina la Biashara/Lako*">
+                                            <input type="text" required class="form-control" id="Name" name="bizname" placeholder="Jina la Biashara/Lako*">
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="Email" name="email" placeholder="Barua Pepe*">
+                                            <input type="email" required class="form-control" id="Email" name="email" placeholder="Barua Pepe*">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="Website" name="phoneno" placeholder="Namba ya Simu">
+                                            <input type="text" required class="form-control" id="Website" name="phoneno" placeholder="Namba ya Simu">
                                         </div>
                                         <div class="form-group">
-                                            <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Andika Ujumbe*"></textarea>
+                                            <textarea id="Message" required class="form-control" rows="3" name="message" placeholder="Andika Ujumbe*"></textarea>
                                         </div>
                                         <button type="submit" class="btn btn-blue"><img src="{{asset('assets/img/icons/send-icon.png')}}" alt="place your img"></button>
                                         <p class="contact-send-message"></p>
